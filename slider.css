@@ -1,0 +1,40 @@
+.slider {
+	width: 100%;	
+	overflow: hidden;
+}
+img{
+  height: 200px;
+}
+.slider ul {
+	display: inline-flex;
+	padding: 0;
+	width: 300%;
+	height: 120%;	
+	animation: cambio 10s infinite alternate ;
+}
+
+.slider li {
+	width:95%;
+	height: 120%;
+
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0%  {margin-left: 0;}
+	30% {margin-left: 0;}
+	
+	35% {margin-left: -100%;}
+	55% {margin-left: -100%;}
+	
+	60% {margin-left: -200%;}
+	95% {margin-left: -200%;}	
+}
+
+.tabla{
+
+}
